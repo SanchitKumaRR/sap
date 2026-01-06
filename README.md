@@ -1,2 +1,30 @@
 # sap
-SAP (Simple AUR Packager) is a lightweight AUR helper designed to bridge the gap between Python and Bash. Built as a solo project by SanchitKumaRR, it features real-time RPC API searching, persistent caching, and a clean command-line interface. Version 0.5 Alpha (2026) focuses on readable code and system-native performance. No bloat, just logic
+# SAP (Simple AUR Packager) 🚀
+
+**SAP** is a minimalist, lightning-fast AUR helper written in Python. It focuses on simplicity and transparent code, allowing users to install, search, and manage Arch User Repository packages without the bloat.
+
+> "A project built for simplicity, by a developer who values clean logic."
+
+## ✨ Features
+- **Install (-S):** Automatic cloning, building, and installation.
+- **Search (-Ss):** Real-time search using the official AUR RPC API.
+- **Information (-Si):** Extract detailed metadata about any package.
+- **Remove (-R):** Clean uninstallation via Pacman.
+- **Cache Management (-Sc):** Keep your system clean by clearing build files.
+- **Minimalist:** Zero external Python dependencies (uses built-in libraries).
+
+## 🛠️ Installation
+
+To install **SAP** globally on your Arch Linux system:
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/SanchitKumaRR/sap.git](https://github.com/SanchitKumaRR/sap.git)
+cd sap
+
+# 2. Make the script executable
+chmod +x sap
+
+# 3. Move it to your local bin (to run 'sap' from anywhere)
+sudo cp sap /usr/local/bin/sap
+
