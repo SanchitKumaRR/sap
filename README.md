@@ -11,7 +11,7 @@
 - **Information (-Si):** Extract detailed metadata about any package.
 - **Remove (-R):** Clean uninstallation via Pacman.
 - **Cache Management (-Sc):** Keep your system clean by clearing build files.
-- **Minimalist:** Zero external Python dependencies (uses built-in libraries).
+- **Minimalist:** Zero bloat!!
 
 ## 🛠️ Installation
 
