@@ -12,6 +12,7 @@
 - **Remove (-R):** Clean uninstallation via Pacman.
 - **Cache Management (-Sc):** Keep your system clean by clearing build files.
 - **Minimalist:** Zero bloat!!
+- **Auto Updating!!(New!!)**-Auto updates the packages!
 
 ## 🛠️ Installation
 
