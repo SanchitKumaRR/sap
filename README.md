@@ -1,4 +1,4 @@
-# sap
+
 # SAP (Simple AUR Packager) 🚀
 
 **SAP** is a minimalist, lightning-fast AUR helper written in Python. It focuses on simplicity and transparent code, allowing users to install, search, and manage Arch User Repository packages without the bloat.
@@ -23,8 +23,8 @@ git clone [https://github.com/SanchitKumaRR/sap.git](https://github.com/SanchitK
 cd sap
 
 # 2. Make the script executable
-chmod +x sap
+chmod +x sap.sh
 
 # 3. Move it to your local bin (to run 'sap' from anywhere)
-sudo cp sap /usr/local/bin/sap
+sudo cp sap.sh /usr/local/bin/sap
 
