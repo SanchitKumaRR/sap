@@ -12,8 +12,17 @@
 - **Remove (-R):** Clean uninstallation via Pacman.
 - **Cache Management (-Sc):** Keep your system clean by clearing build files.
 - **Minimalist:** Zero bloat!!
-- **Auto Updating!!(New!!)**-Auto updates the packages!
 
+-**Usage:**
+```bash
+  sap install  <pkg>  (or -S)
+  sap remove   <pkg>  (or -R)
+  sap search   <pkg>  (or -Ss)
+  sap list            (or -Qs)
+  sap clean           (or -Sc)
+  sap doctor          (Check system)
+  sap info            (or -i)
+  ```
 ## 🛠️ Installation
 
 To install **SAP** globally on your Arch Linux system:
